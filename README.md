@@ -13,11 +13,11 @@ pip install -r requirements.txt
 
 ## Data processing
 
-Please refer to `processing_82_data.ipynb`、`processing_89_data.ipynb`、`processing_811_data.ipynb`, to process the CGM data into a format accepted by the model
+Please refer to `processing_82_data.ipynb`、`processing_89_data.ipynb`、`processing_811_data.ipynb`、`build_vocab.ipynb`, to process the CGM data into a format accepted by the model
 
 
 
-## Model Training
+## Pre-training CGMformer
 
 To train CGMformer using unlabeled CGM data, use the `run_pretrain_CGMFormer.py` script.
 
